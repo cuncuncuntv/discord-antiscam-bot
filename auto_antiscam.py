@@ -4,7 +4,6 @@ import re
 import os
 from datetime import timedelta
 
-# ===== TOKEN =====
 TOKEN = os.getenv("TOKEN")
 
 # ===== SCAM DATA =====
@@ -125,6 +124,7 @@ async def on_message(message):
 
 
 bot.run(TOKEN)
+
 
 
 
