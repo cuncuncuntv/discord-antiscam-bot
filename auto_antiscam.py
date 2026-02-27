@@ -1,10 +1,10 @@
 import discord
 from discord.ext import commands
 import re
+import os
 from datetime import timedelta
 
 # ===== TOKEN =====
-import os
 TOKEN = os.getenv("TOKEN")
 
 # ===== SCAM DATA =====
@@ -125,4 +125,5 @@ async def on_message(message):
 
 
 bot.run(TOKEN)
+
 
