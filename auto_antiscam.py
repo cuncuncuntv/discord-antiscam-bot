@@ -4,7 +4,8 @@ import re
 from datetime import timedelta
 
 # ===== TOKEN =====
-
+import os
+TOKEN = os.getenv("TOKEN")
 
 # ===== SCAM DATA =====
 SCAM_KEYWORDS = [
@@ -124,3 +125,4 @@ async def on_message(message):
 
 
 bot.run(TOKEN)
+
