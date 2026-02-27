@@ -23,7 +23,8 @@ SCAM_DOMAINS = [
     "free-nitro",
     "steamgift",
     "nitrofree",
-    "airdrop-crypto"
+    "airdrop-crypto",
+    "LAUNCH casewin"
 ]
 
 SHORT_LINKS = [
@@ -124,6 +125,7 @@ async def on_message(message):
 
 print("TOKEN =", TOKEN)
 bot.run(TOKEN)
+
 
 
 
