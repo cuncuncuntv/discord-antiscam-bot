@@ -15,9 +15,7 @@ SCAM_KEYWORDS = [
     "free steam",
     "nitro free",
     "50$ gift",
-    "launch",
-    "case",
-    "win"
+    "LAUNCH casewin"
 ]
 
 SCAM_DOMAINS = [
