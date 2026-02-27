@@ -4,7 +4,7 @@ import re
 from datetime import timedelta
 
 # ===== TOKEN =====
-TOKEN = "MTQ3NjU3MjE4NzU1NjE4NDA5NA.GMHSeD.sSrK4-gBuC8XOmYCtKB3wSE5caf5xQElg2M24k"
+
 
 # ===== SCAM DATA =====
 SCAM_KEYWORDS = [
@@ -121,5 +121,6 @@ async def on_message(message):
                 print("Timeout error:", e)
 
     await bot.process_commands(message)
+
 
 bot.run(TOKEN)
