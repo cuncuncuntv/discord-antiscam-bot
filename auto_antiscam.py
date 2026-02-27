@@ -15,7 +15,9 @@ SCAM_KEYWORDS = [
     "free steam",
     "nitro free",
     "50$ gift",
-    "LAUNCH casewin"
+    "launch",
+    "case",
+    "win"
 ]
 
 SCAM_DOMAINS = [
@@ -125,6 +127,7 @@ async def on_message(message):
 
 print("TOKEN =", TOKEN)
 bot.run(TOKEN)
+
 
 
 
